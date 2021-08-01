@@ -1,26 +1,27 @@
-.user-list {
+.product-list {
     flex: 4;
+    padding: 20px;
 }
 
-.user-list__user {
+.product-list__product {
     display: flex;
     align-items: center;
 }
 
-.user-list__img {
+.product-list__img {
     width: 32px;
     height: 32px;
-    border-radius: 50%;
+    border-radius: 5px;
     object-fit: cover;
     margin-right: 10px;
 }
 
-.user-list__action {
+.product-list__action {
     display: flex;
     align-items: center;
 }
 
-.user-list__button--edit {
+.product-list__button--edit {
     border: none;
     border-radius:10px;
     padding: 5px 10px;
@@ -30,7 +31,7 @@
     margin-right: 10px;
 }
 
-.user-list__button--remove {
+.product-list__button--remove {
     color: red;
     cursor: pointer;
 }

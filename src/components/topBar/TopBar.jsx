@@ -1,12 +1,15 @@
 import { Language, NotificationsNone, Settings } from "@material-ui/icons"
 import "./topBar.css"
+import { Link } from "react-router-dom"
 
 const TopBar = () => {
     return (
         <div className="top-bar">
             <div className="top-bar-wrapper">
                 <div className="top-left">
-                    <span className="logo">Netflix ADMIN</span>
+                    <Link to="/">
+                        <span className="logo">Netflix ADMIN</span>
+                    </Link>
                 </div>
                 <div className="top-right">
                     <div className="top-bar__icon-container">
